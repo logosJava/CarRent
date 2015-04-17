@@ -9,7 +9,7 @@
 	
 	<annotation-driven />
 	
-	<beans:import resource="root-context.xml"/>
+	<beans:import resource="root-context.xml"/> // not nessesary
 	<context:component-scan base-package="home" />
 	
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
